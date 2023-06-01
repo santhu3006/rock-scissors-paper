@@ -35,7 +35,7 @@ const GameResults = props => {
           </GameButton>
           <GameButton
             type="button"
-            data-testid="paperButton"
+            data-testid="scissorsButton"
             onClick={() => opponentRandomChoice(choicesList[1].id)}
           >
             <GameImage
@@ -46,7 +46,7 @@ const GameResults = props => {
           </GameButton>
           <GameButton
             type="button"
-            data-testid="scissorsButton"
+            data-testid="paperButton"
             onClick={() => opponentRandomChoice(choicesList[2].id)}
           >
             <GameImage
